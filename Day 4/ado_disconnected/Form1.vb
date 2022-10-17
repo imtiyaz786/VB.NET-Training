@@ -1,7 +1,7 @@
 ﻿Imports System.Data.SqlClient
 Public Class Form1
 
-    ReadOnly con As New SqlConnection("server=LTIN303717;database=bankingDB_VB;integrated security = true")
+    ReadOnly con As New SqlConnection("server=servername;database=dbname;integrated security = true")
     ReadOnly cmd As New SqlDataAdapter("select * from Accounts", con)
     ReadOnly ds As New DataSet()
     ReadOnly builder As New SqlCommandBuilder(cmd) 'this will build all the commands, insert, update, delete

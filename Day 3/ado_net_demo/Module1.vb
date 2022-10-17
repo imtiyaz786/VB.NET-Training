@@ -11,7 +11,7 @@ Module Module1
 
         While continueOperations
 
-            Dim con As New SqlConnection("server=LTIN303717;database=bankingDB_VB; integrated security=true")
+            Dim con As New SqlConnection("server=servername;database=dbname; integrated security=true")
             Dim cmd_checkLogin As New SqlCommand("Select count(*) from loginInfo where userName = @uName and password = @pwd", con)
 
             Console.WriteLine("Enter User Name")
