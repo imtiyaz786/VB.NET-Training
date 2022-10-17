@@ -1,0 +1,5 @@
+Hello, my name is Manoj
+I am from Lucknow
+I am a Trader
+I love Trading
+I am passionate about DevOps and Open-source

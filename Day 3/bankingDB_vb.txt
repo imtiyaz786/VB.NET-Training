@@ -1,0 +1,9 @@
+accNo,accName,accType,accBalance,accIsActive
+101,Imtiyaz,Savings,40000,True
+102,Nikhil,Savings,14000,True
+103,Venugopal,Current,42000,False
+105,Abhinav,PF,45000,True
+106,Manoj,Current,41000,True
+107,Mitesh,PF,71000,True
+108,Jui,Savings,72000,True
+109,Julie,Current,1300,False
